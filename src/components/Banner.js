@@ -13,7 +13,7 @@ export const Banner = () => {
     let newArray = word.split("");
     let timer;
 
-    console.log(newArray.length);
+  
 
     timer = setTimeout(() => {
       setName((prev) => {
@@ -36,10 +36,6 @@ export const Banner = () => {
       clearTimeout(timer);
     };
   }, [word, index]);
-
-  useEffect(() => {
-    console.log(index);
-  }, [name, index]);
 
   return (
     <section className="banner" id="home">

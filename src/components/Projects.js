@@ -14,31 +14,43 @@ export const Projects = () => {
 
   const projects = [
     {
+      id: "tindog",
+      url: "https://dog4.netlify.app",
       title: "TinDog",
       description: "A landing page for dogs",
       imgUrl: projImg1,
     },
     {
+      id: "alti",
+      url: "https://alticorp.netlify.app",
       title: "Alti Dynamics",
       description: "Corporal website of Dynamics Industries",
       imgUrl: projImg2,
     },
     {
+      id: "tictac",
+      url: "https://tc-tc-toe.netlify.app",
       title: "Tic Tac Toe Game",
       description: "Let's Have Fun",
       imgUrl: projImg3,
     },
     {
+      id: "mortal",
+      url: "https://mortal-store.netlify.app",
       title: "Mortal Kombat Fan Page",
       description: "Kombat tales and store",
       imgUrl: projImg4,
     },
     {
+      id: "movie",
+      url: "https://mvie-app.netlify.app",
       title: "Movie App",
       description: "A smooth movie website",
       imgUrl: projImg5,
     },
     {
+      id: "spotify",
+      url: "https://burkisspotify-clone.netlify.app",
       title: "Spotify Clone",
       description: "Clone frontend of spotify",
       imgUrl: projImg6,
@@ -58,10 +70,10 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Completed</Nav.Link>
+                      <Nav.Link eventKey="first">Designs</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">On Progress</Nav.Link>
+                      <Nav.Link eventKey="second">Upcoming</Nav.Link>
                     </Nav.Item>
                     {/* <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>

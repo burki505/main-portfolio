@@ -3,11 +3,8 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import InstagramIcon from '@mui/icons-material/Instagram';  
 
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
 
 
 export const NavBar = () => {
@@ -34,7 +31,7 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
+   
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -62,6 +59,6 @@ export const NavBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
+  
   )
 }
